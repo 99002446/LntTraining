@@ -1,0 +1,16 @@
+D:\SimpleStack\bin\Debug\net5.0\SimpleStack.exe
+D:\SimpleStack\bin\Debug\net5.0\SimpleStack.deps.json
+D:\SimpleStack\bin\Debug\net5.0\SimpleStack.runtimeconfig.json
+D:\SimpleStack\bin\Debug\net5.0\SimpleStack.runtimeconfig.dev.json
+D:\SimpleStack\bin\Debug\net5.0\SimpleStack.dll
+D:\SimpleStack\bin\Debug\net5.0\ref\SimpleStack.dll
+D:\SimpleStack\bin\Debug\net5.0\SimpleStack.pdb
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.csproj.AssemblyReference.cache
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.GeneratedMSBuildEditorConfig.editorconfig
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.AssemblyInfoInputs.cache
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.AssemblyInfo.cs
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.csproj.CoreCompileInputs.cache
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.dll
+D:\SimpleStack\obj\Debug\net5.0\ref\SimpleStack.dll
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.pdb
+D:\SimpleStack\obj\Debug\net5.0\SimpleStack.genruntimeconfig.cache
