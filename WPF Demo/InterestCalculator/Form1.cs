@@ -26,7 +26,7 @@ namespace InterestCalculator
         {
             if (string.IsNullOrWhiteSpace(principalTextBox.Text))
             {
-               MessageBox.Show( "Name should not be left blank!");
+               MessageBox.Show( "Principal should not be left blank!");
             }
             if (string.IsNullOrWhiteSpace(ratetextbox.Text))
             {
