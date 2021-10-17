@@ -8,14 +8,17 @@
         mc:Ignorable="d"
         Title="Welcome to Wpf" Height="250" Width="400">
 
+ <StackPanel>
+        <TextBlock Background="Aqua" Width="200" >My Book List </TextBlock>
+        <ListBox Width="200">
+            <ListBox.Items >
+                <b1:Books Title="XYZ" Author="ABC" Price="123"/>
+                <b1:Books Title="XYZ" Author="ABC" Price="123"/>
+                <b1:Books Title="XYZ" Author="ABC" Price="123"/>
+               
+            </ListBox.Items>
+        </ListBox>
+        <Button Background="BlanchedAlmond" Width="200" Content="Show Details" />
 
-     
-    <ListBox>
-        <ListBox.Items>
-            <b1:Books Title="XYZ" Author="ABC" Price="123"/>
-            <b1:Books Title="XYZ" Author="ABC" Price="123"/>
-            <b1:Books Title="XYZ" Author="ABC" Price="123"/>
-            <Button Content=" Show Details"/>
-        </ListBox.Items>
-    </ListBox>
+    </StackPanel>
 </Window>
