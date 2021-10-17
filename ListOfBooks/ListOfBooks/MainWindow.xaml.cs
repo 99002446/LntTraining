@@ -24,5 +24,32 @@ namespace ListOfBooks
         {
             InitializeComponent();
         }
+
+        private void HandleShowDetails(object sender, RoutedEventArgs e)
+        {
+            if (Books.SelectedItem == null)
+            {
+                MessageBox.Show("Please select any of the book");
+            }
+            if (Books.SelectedItem==book1)
+            {
+                titleText.Text = book1.Title.ToString();
+                authorText.Text = book1.Author.ToString();
+                priceText.Text = "₹" + book1.Price.ToString();
+            }
+            if (Books.SelectedItem == book2)
+            {
+                titleText.Text = book2.Title.ToString();
+                authorText.Text = book2.Author.ToString();
+                priceText.Text = "₹" + book2.Price.ToString();
+            }
+            if (Books.SelectedItem == book3)
+            {
+                titleText.Text = book3.Title.ToString();
+                authorText.Text = book3.Author.ToString();
+                priceText.Text = "₹" + book3.Price.ToString();
+            }
+
+        }
     }
 }

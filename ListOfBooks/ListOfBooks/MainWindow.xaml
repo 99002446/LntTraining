@@ -6,19 +6,37 @@
         xmlns:local="clr-namespace=ListOfBooks" 
         xmlns:b1="clr-namespace:BooksLst;assembly=BooksLst"
         mc:Ignorable="d"
-        Title="Welcome to Wpf" Height="250" Width="400">
+        Title="Welcome to Wpf" Height="400" Width="500">
+    <StackPanel Background="Beige" Margin="0,10,0,0">
+        <TextBlock 
+            FontSize="20" 
+            Background="Aqua" 
+            Width="206" 
+            FontFamily="Comic Sans MS" Height="34" RenderTransformOrigin="0.498,0.854"><Run Text="My Book List"/></TextBlock>
+        <ListBox x:Name="Books"
+            Width="367" Margin="13,10,0,13" 
+                 Foreground="DarkGoldenrod" 
+                 Background="Aquamarine">
+            <b1:Books Title="The Bloomsbury Anthology of Great Indian Poems" Author="Abhay K." Price="330" x:Name="book1"/>
+            <b1:Books Title="My Journey" Author="Dr. A.P.J. Abdul Kalam" Price="390" x:Name="book2"/>
+            <b1:Books Title="Making of New India" Author="Dr. Bibek Debroy" Price="250"  x:Name="book3"/>
 
- <StackPanel>
-        <TextBlock Background="Aqua" Width="200" >My Book List </TextBlock>
-        <ListBox Width="200">
-            <ListBox.Items >
-                <b1:Books Title="XYZ" Author="ABC" Price="123"/>
-                <b1:Books Title="XYZ" Author="ABC" Price="123"/>
-                <b1:Books Title="XYZ" Author="ABC" Price="123"/>
-               
-            </ListBox.Items>
         </ListBox>
-        <Button Background="BlanchedAlmond" Width="200" Content="Show Details" />
-
+        <Button Click="HandleShowDetails" 
+                Background="LightSlateGray"  Width="200" Content="Show Details" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Title" Foreground="DarkGoldenrod"  FontSize="20" Width="77"/>
+            <TextBlock x:Name="titleText" Foreground="Coral" FontSize="15"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Author" Foreground="DarkGoldenrod" FontSize="20" Width="77"/>
+            <TextBlock x:Name="authorText" Foreground="Coral" FontSize="15"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Price" Foreground="DarkGoldenrod" FontSize="20" Width="77"/>
+            <TextBlock x:Name="priceText" Foreground="Coral" FontSize="15"/>
+        </StackPanel>
+        
     </StackPanel>
+
 </Window>
