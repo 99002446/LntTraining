@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ListOfBooks/1.0.0": {
+        "dependencies": {
+          "BooksLst": "1.0.0"
+        },
+        "runtime": {
+          "ListOfBooks.dll": {}
+        }
+      },
+      "BooksLst/1.0.0": {
+        "runtime": {
+          "BooksLst.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ListOfBooks/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BooksLst/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

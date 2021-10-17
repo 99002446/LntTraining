@@ -1,0 +1,21 @@
+﻿<Window x:Class="ListOfBooks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace=ListOfBooks" 
+        xmlns:b1="clr-namespace:BooksLst;assembly=BooksLst"
+        mc:Ignorable="d"
+        Title="Welcome to Wpf" Height="250" Width="400">
+
+
+     
+    <ListBox>
+        <ListBox.Items>
+            <b1:Books Title="XYZ" Author="ABC" Price="123"/>
+            <b1:Books Title="XYZ" Author="ABC" Price="123"/>
+            <b1:Books Title="XYZ" Author="ABC" Price="123"/>
+            <Button Content=" Show Details"/>
+        </ListBox.Items>
+    </ListBox>
+</Window>
