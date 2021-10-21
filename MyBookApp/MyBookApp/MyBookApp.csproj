@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0-windows\BookData.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.11" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.115" />
+  </ItemGroup>
+
+</Project>

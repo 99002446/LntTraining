@@ -1,0 +1,41 @@
+﻿<Window x:Class="MyBookApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyBookApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Background="MediumAquamarine">
+        <TextBlock 
+            FontSize="30" Foreground="DarkOliveGreen"
+            FontFamily="Comic Sans MS" Width="636">
+            My Book App</TextBlock>
+        <WrapPanel Orientation="Horizontal"  Margin="10,10,0,14" Width="446" >
+            <Button Margin="15" Content="New" Height="33" Width="100" Foreground="Crimson" Background="DarkTurquoise" Click="Button_Click" />
+            <Button Margin="15" Content="Save" Height="33" Width="100" Foreground="Crimson" Background="DarkTurquoise" Click="Button_Click_1"/>
+            <Button Margin="15" Content="Delete" Height="33" Width="100" Foreground="Crimson" Background="DarkTurquoise" Click="Button_Click_2"/>
+        </WrapPanel>
+        <StackPanel Orientation="Horizontal" Margin="30,10,20,10" Width="743">
+            <TextBlock Text="Title" Foreground="DarkGoldenrod"  FontSize="20" Width="95"/>
+            <TextBox x:Name="titleText" Foreground="Coral" FontSize="15" Width="400"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="30,10,20,10">
+            <TextBlock Text="Author" Foreground="DarkGoldenrod" FontSize="20" Width="95"/>
+            <TextBox x:Name="authorText"  IsEnabled="True" Foreground="Coral" FontSize="15" Width="400"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="30,10,20,10">
+            <TextBlock Text="Price" Foreground="DarkGoldenrod" FontSize="20" Width="95"/>
+            <TextBox x:Name="priceText" Foreground="Coral" FontSize="15" Width="400"/>
+        </StackPanel>
+        <WrapPanel Orientation="Horizontal"  Margin="10,10,0,14" Width="696" >
+            <Button Content="First" Height="33" Width="123" Foreground="Crimson" Background="DarkTurquoise" Click="Button_Click_3" />
+            <Button Margin="25" Content="Previous" Height="33" Width="123" Foreground="Crimson" Background="DarkTurquoise"/>
+            <Button Margin="25" Content="Next" Height="33" Width="123" Foreground="Crimson" Background="DarkTurquoise" Click="Button_Click_5" />
+            <Button Margin="25" Content="Last" Height="33" Width="123" Foreground="Crimson" Background="DarkTurquoise" Click="Button_Click_4"/>
+        </WrapPanel>
+        <WrapPanel Orientation="Horizontal"  Margin="10,10,0,14" Width="696" >
+            <TextBlock></TextBlock>
+        </WrapPanel>
+    </StackPanel>
+</Window>
